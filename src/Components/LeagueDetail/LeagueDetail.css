@@ -10,16 +10,18 @@
 }
 
 .row-detail{
-    display: flex;
-    background-color: rgb(9, 9, 92);
-    padding: 20px;
+    padding: 5px;
     border-radius: 1.5em;
+    background-color: rgb(9, 9, 92);
+    
+    
+}
+/* padding: 20px;
+    
     margin-left:50px;
     margin-right: 50px;
     margin-top: 50px;
-    
-}
-
+    display: flex; */
 .detail{
     width: 60%;
     color: white;
@@ -42,10 +44,3 @@ a{
 a:hover{
     transform: scale(1.1);
 }
-
-@media only screen and (max-width: 580px) {
-    .league-image img{
-        width: 400px;
-        height: 250px;
-    }
-  }
