@@ -1,0 +1,47 @@
+
+.body-bg{
+    background-color: rgb(7, 10, 26);
+    height: 100vh;
+}
+
+
+
+.league-image img{
+    width: 800px;
+    height: 250px;
+}
+
+.row-detail{
+    display: flex;
+    background-color: rgb(9, 9, 92);
+    padding: 20px;
+    border-radius: 1.5em;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.detail{
+    width: 60%;
+    color: white;
+}
+
+.league-image{
+    width: 20%;
+}
+
+.card-font{
+    font-size:20px;
+}
+
+.text-define{
+    text-align: justify;
+}
+a{
+    transition: .25s all ease-out;
+}
+a:hover{
+    transform: scale(1.1);
+}
+
