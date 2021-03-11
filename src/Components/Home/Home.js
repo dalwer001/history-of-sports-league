@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import Header from '../Header/Header';
+import LeagueDetail from '../LeagueDetail/LeagueDetail';
 import LeagueDisplay from '../LeagueDisplay/LeagueDisplay';
 import './Home.css';
 
@@ -16,6 +17,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setFootballLeagues(data.leagues))
     }, [])
+
 
 
 

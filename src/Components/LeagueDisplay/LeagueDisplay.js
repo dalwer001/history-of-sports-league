@@ -24,6 +24,7 @@ const LeagueDisplay = (props) => {
     }, [idLeague])
 
     return (
+
         <div className=" mt-4 mb-4">
             <div className="card container" style={{ width: '20rem' }}>
                 <img src={leagueBadge.strBadge} className="card-img-top img-size p-5" alt="..." />
