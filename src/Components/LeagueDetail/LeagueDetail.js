@@ -49,8 +49,8 @@ const {strLogo,strLeague,intFormedYear,strCountry,strSport,strGender,strDescript
                 </div>
             </div>
 
-            <div className="container text-white mb-3 card-font">
-                <div style={{ width: '100%' }}>
+            <div className=" text-white mb-3 card-font">
+                <div style={{ width: '100%' }} className="container">
                     <div className="row  row-detail">
                         <div className="col-md-8 col-sm-12 card-gap">
                             <div className="card-body">
@@ -61,7 +61,7 @@ const {strLogo,strLeague,intFormedYear,strCountry,strSport,strGender,strDescript
                                 <p class="card-text"><FontAwesomeIcon icon={faMars} /> Gender: {strGender}</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-12 league-image  p-2 ">
+                        <div class="col-md-4 col-sm-12 league-image ">
                             <div>
                             {leagueImage}
                             </div>
