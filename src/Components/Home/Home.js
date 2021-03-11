@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 import Header from '../Header/Header';
-import LeagueDetail from '../LeagueDetail/LeagueDetail';
 import LeagueDisplay from '../LeagueDisplay/LeagueDisplay';
 import './Home.css';
 
@@ -23,7 +22,7 @@ const Home = () => {
 
 
     return (
-        <div className="fluid-container body-bg">
+        <div className="body-bg">
             <div>
                 <Header></Header>
             </div>
