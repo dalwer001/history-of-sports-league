@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 import Header from '../Header/Header';
-import LeagueDetail from '../LeagueDetail/LeagueDetail';
 import LeagueDisplay from '../LeagueDisplay/LeagueDisplay';
 import './Home.css';
 

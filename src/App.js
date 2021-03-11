@@ -3,10 +3,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Route
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
