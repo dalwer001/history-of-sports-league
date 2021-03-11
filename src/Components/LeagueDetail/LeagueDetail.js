@@ -49,7 +49,7 @@ const {strLogo,strLeague,intFormedYear,strCountry,strSport,strGender,strDescript
                 </div>
             </div>
 
-            <div className="container text-white mb-3 card-font p-4">
+            <div className="container text-white mb-3 card-font">
                 <div style={{ width: '100%' }}>
                     <div className="row  row-detail">
                         <div className="col-md-8 col-sm-12 card-gap">
