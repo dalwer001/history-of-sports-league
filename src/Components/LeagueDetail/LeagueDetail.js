@@ -61,7 +61,7 @@ const {strLogo,strLeague,intFormedYear,strCountry,strSport,strGender,strDescript
                                 <p class="card-text"><FontAwesomeIcon icon={faMars} /> Gender: {strGender}</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-12 league-image py-2">
+                        <div class="col-md-4 col-sm-12 col-xs-12 league-image py-2">
                             <div>
                             {leagueImage}
                             </div>
